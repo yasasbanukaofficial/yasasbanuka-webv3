@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20vh;
+    margin-left: 40vw;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.name {
+    color: white;
+    margin-top: 250px;
+    font-size: 6.5vh;
+    height: 70px;
+    text-align: right;
+}
+
+.heroDescription {
+    color: #E01A4F;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    margin-top: -30px;
+    text-align: right;
+}
+
+.socials {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.socialButton {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.para {
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    height: 117px;
+    width: 650px;
+}

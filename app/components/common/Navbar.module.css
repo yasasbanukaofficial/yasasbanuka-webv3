@@ -1,0 +1,30 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 19vh;
+    /* Adjust if necessary for spacing */
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 6vh;
+    margin-bottom: 0;
+    margin-left: 10vh;
+    width: auto;
+}
+
+.link {
+    text-decoration: none;
+    color: #78FECF;
+    font-size: 5vh;
+    transition: all 0.2s;
+    /* Optimize transition */
+    border-left: 1px solid #78FECF;
+    padding-left: 10px;
+    /* Optional: Add padding to avoid text touching the border */
+}
+
+.link:hover {
+    color: white;
+    text-decoration: underline;
+    padding-left: 30px;
+}
