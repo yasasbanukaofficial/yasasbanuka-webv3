@@ -26,8 +26,8 @@ const Hero = () => {
                     />
                 </Link>
             </div>
-            <p className={styles.para}>All it took to get me into the IT industry was a cellphone back in 2011.
-                Even though it was a long time ago, I still remember how I used it to learn both hardware and software, plus the design.</p>
+            <p className={styles.para}>All it took to get me into the <span style={{ color: '#E01A4F' }}>IT industry</span> was a <span style={{ color: '#78FECF' }}>cellphone</span> back in <span style={{ color: '#F9E900' }}>2011.</span><br />
+                Even though it was a long time ago, I remember using that cellphone to learn about IT for the first time. It sparked my interest and led me to pursue a career in IT.</p>
         </div>
     )
 }

@@ -13,6 +13,7 @@
     margin-left: 40vw;
     overflow: hidden;
     padding-top: 30px;
+    cursor: context-menu;
 }
 
 .name {
@@ -49,11 +50,12 @@
 }
 
 .para {
+    text-align: right;
     font-family: "Cabin Condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: white;
     font-size: 20px;
     height: 117px;
-    width: 650px;
+    width: 700px;
 }
