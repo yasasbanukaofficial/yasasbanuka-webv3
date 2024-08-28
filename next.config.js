@@ -21,8 +21,8 @@ const nextConfig = {
     },
 
     // Set the base path and asset prefix for GitHub Pages
-    basePath: isProd ? '/your-repo-name' : '',
-    assetPrefix: isProd ? '/your-repo-name/' : '',
+    basePath: isProd ? '/yasasbanuka-webv3' : '',
+    assetPrefix: isProd ? '/yasasbanuka-webv3/' : '',
 }
 
 module.exports = nextConfig;
