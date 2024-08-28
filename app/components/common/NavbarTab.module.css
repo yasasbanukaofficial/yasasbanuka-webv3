@@ -1,5 +1,6 @@
 .NavbarTab {
     display: flex;
+    justify-content: center;
     text-align: center;
     flex-direction: row;
     gap: 10vh;
@@ -8,15 +9,13 @@
     font-style: normal;
     margin-top: 6vh;
     margin-bottom: 0;
-    margin-left: 15vw;
-    margin-right: 10vw;
-    width: 400px;
+    width: 100%;
 }
 
 .linkTab {
     text-decoration: none;
     color: #78FECF;
-    font-size: 2vh;
+    font-size: 1.75vh;
     width: auto;
     /*border-left: 1px solid #78FECF;
     padding-left: 15px;*/
