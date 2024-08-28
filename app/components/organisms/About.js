@@ -10,6 +10,7 @@ const About = () => {
             <SectionTopic f1='o' />
             <SectionTopic f1='u' />
             <SectionTopic f1='t' />
+            <div className={styles.line} />
         </div>
     )
 }

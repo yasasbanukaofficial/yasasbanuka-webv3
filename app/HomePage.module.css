@@ -1,4 +1,29 @@
-.Home {
-    display: flex;
-    width: auto;
+@media only screen and (min-width: 900px) {
+
+    .Home {
+        display: flex;
+        width: auto;
+    }
+
+    .AboutSection {
+        width: auto;
+        display: flex;
+    }
+
+    .HomeTab {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .Home {
+        display: none;
+    }
+
+    .AboutSection {
+        width: auto;
+        display: flex;
+    }
+
 }
