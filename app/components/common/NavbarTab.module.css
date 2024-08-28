@@ -21,6 +21,13 @@
     padding-left: 15px;*/
 }
 
+@media only screen and (max-width: 1024px) {
+
+    .linkTab {
+        font-size: 2vh;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .NavbarTab {
         display: flex;
@@ -34,5 +41,15 @@
         margin-top: 6vh;
         margin-bottom: 0;
         width: auto;
+    }
+
+    .linkTab {
+        font-size: 1.75vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .linkTab {
+        font-size: 1.85vh;
     }
 }

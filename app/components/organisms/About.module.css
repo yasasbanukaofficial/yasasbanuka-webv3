@@ -19,7 +19,48 @@
         display: block;
         margin-left: 20px;
         background-color: aquamarine;
-        width: 130px;
+        width: 518px;
         height: 2px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .About {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .line {
+        display: block;
+        margin-left: 20px;
+        background-color: aquamarine;
+        width: 315px;
+        height: 2px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .About {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: auto;
+        margin-top: 50vh;
+    }
+
+    .line {
+        display: block;
+        margin-left: 20px;
+        background-color: aquamarine;
+        width: 14vh;
+        height: 2px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .line {
+        width: 77px;
     }
 }
