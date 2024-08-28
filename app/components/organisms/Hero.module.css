@@ -67,6 +67,12 @@
 
     }
 
+    .para {
+        text-align: right;
+        font-size: 19.25px;
+        width: auto;
+    }
+
     .name {
         font-size: 5.5vh;
     }
