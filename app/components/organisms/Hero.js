@@ -3,6 +3,7 @@ import styles from './Hero.module.css'
 import Image from 'next/image'
 import GithubLogo from '@/public/github-icon.png'
 import InstagramLogo from '@/public/instagram-icon.png'
+import LinkedinLogo from '@/public/linkedin-logo.png'
 import Link from 'next/link'
 
 const Hero = () => {
@@ -21,6 +22,13 @@ const Hero = () => {
                 <Link href='https://www.instagram.com/yixbee/' target='_blank'>
                     <Image
                         src={InstagramLogo}
+                        alt='instagram-logo'
+                        className={styles.socialButton}
+                    />
+                </Link>
+                <Link href='https://www.instagram.com/yixbee/' target='_blank'>
+                    <Image
+                        src={LinkedinLogo}
                         alt='instagram-logo'
                         className={styles.socialButton}
                     />

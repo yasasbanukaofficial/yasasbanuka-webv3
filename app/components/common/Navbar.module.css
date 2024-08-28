@@ -9,7 +9,7 @@
     margin-top: 6vh;
     margin-bottom: 0;
     margin-left: 10vh;
-    width: auto;
+    width: 400px;
 }
 
 .link {
@@ -19,7 +19,7 @@
     transition: all 0.2s;
     /* Optimize transition */
     border-left: 1px solid #78FECF;
-    padding-left: 10px;
+    padding-left: 15px;
     /* Optional: Add padding to avoid text touching the border */
 }
 
