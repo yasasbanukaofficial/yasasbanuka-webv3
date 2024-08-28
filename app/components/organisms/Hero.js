@@ -26,7 +26,7 @@ const Hero = () => {
                         className={styles.socialButton}
                     />
                 </Link>
-                <Link href='https://www.instagram.com/yixbee/' target='_blank'>
+                <Link href='https://www.linkedin.com/in/yasasbanukagunasena/' target='_blank'>
                     <Image
                         src={LinkedinLogo}
                         alt='instagram-logo'
