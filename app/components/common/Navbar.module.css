@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     gap: 19vh;
-    /* Adjust if necessary for spacing */
     font-family: "Bruno Ace", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -17,14 +16,23 @@
     color: #78FECF;
     font-size: 5vh;
     transition: all 0.2s;
-    /* Optimize transition */
     border-left: 1px solid #78FECF;
     padding-left: 15px;
-    /* Optional: Add padding to avoid text touching the border */
 }
 
 .link:hover {
     color: white;
     text-decoration: underline;
     padding-left: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .link {
+        font-size: 4vh;
+        width: 230px;
+    }
+
+    .link:hover {
+        padding-left: 13px;
+    }
 }
