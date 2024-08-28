@@ -77,3 +77,34 @@
         font-size: 5.5vh;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .hero {
+        width: auto;
+
+    }
+
+    .heroDescription {
+        text-align: center;
+    }
+
+    .para {
+        text-align: center;
+        font-size: 18.5px;
+        width: auto;
+    }
+
+    .name {
+        font-size: 4.25vh;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .socialButton {
+        height: 42px;
+        width: 42px;
+        cursor: pointer;
+    }
+}

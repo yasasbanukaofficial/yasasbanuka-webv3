@@ -27,3 +27,15 @@
     }
 
 }
+
+@media only screen and (max-width: 500px) {
+    .Home {
+        display: none;
+    }
+
+    .AboutSection {
+        width: auto;
+        display: flex;
+    }
+
+}
