@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+.SectionTopic {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 6.25px;
+    margin-left: 125px;
+    border-right: 1px solid #78FECF;
+    padding-right: 20px;
+}
+
+.title {
+    font-family: "Bruce Ace", sans-serif;
+    color: white;
+    font-size: 40px;
+}
