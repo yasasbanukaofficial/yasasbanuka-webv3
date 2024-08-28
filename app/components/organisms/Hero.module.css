@@ -93,7 +93,9 @@
     .para {
         text-align: center;
         font-size: 18.5px;
+        padding-bottom: 5px;
         width: auto;
+        height: auto;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -116,6 +118,12 @@
 
 @media only screen and (max-width: 380px) {
     .hero {
-        margin-top: -15vh;
+        margin-top: -17vh;
+    }
+
+    .para {
+        font-size: 18px;
+        padding: 5px;
+        height: auto;
     }
 }
