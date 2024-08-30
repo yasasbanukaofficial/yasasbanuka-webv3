@@ -1,0 +1,103 @@
+.ToolsSection {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.skillButton1 {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: bold;
+    font-family: "Cabin Condensed", sans-serif;
+    font-size: 16px;
+    color: #00f7ff;
+    background-color: #004d50;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.7;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.skillButton1:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.skillButton2 {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: bold;
+    font-family: "Cabin Condensed", sans-serif;
+    font-size: 16px;
+    color: #F9E900;
+    background-color: #4e4900;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.7;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.skillButton2:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.skillButton3 {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: bold;
+    font-family: "Cabin Condensed", sans-serif;
+    font-size: 16px;
+    color: #ff0044;
+    background-color: #410011;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.7;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.skillButton3:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 500px) {
+    .ToolsSection {
+        display: grid;
+        grid-template-columns: 145px 145px;
+        gap: 10px;
+    }
+
+    .skillButton1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .skillButton2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .skillButton3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
