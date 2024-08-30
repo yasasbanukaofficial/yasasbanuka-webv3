@@ -27,7 +27,7 @@ edit it according to your own way
 <p>4. Leave some credits for me in</p>
 
 ```
-yasasbanukaofficial.github.io/yasasbanuka-webv3/
+https://yasasbanukaofficial.github.io/yasasbanuka-webv3/
 ```
 <h2>💻 Built with</h2>
 
