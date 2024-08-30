@@ -8,10 +8,19 @@
 
 .main {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 20vh;
     margin-bottom: 3vh;
     font-family: "Bruno Ace", sans-serif;
+}
+
+.profilepic {
+    width: 299px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 
@@ -34,6 +43,11 @@
         background-color: aquamarine;
         width: 518px;
         height: 2px;
+    }
+
+    .profilepic {
+        margin: 0;
+        margin-top: 40px;
     }
 }
 
@@ -69,6 +83,10 @@
         background-color: aquamarine;
         width: 14vh;
         height: 2px;
+    }
+
+    .profilepic {
+        width: 150px;
     }
 }
 

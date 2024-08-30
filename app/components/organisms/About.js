@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import ProfilePic from '@/public/profile.jpg'
 import styles from './About.module.css'
 import SectionTopic from '../atoms/SectionTopic'
 import AboutSection from '../molecules/AboutSection'
@@ -15,6 +17,11 @@ const About = () => {
                 <div className={styles.line} />
             </div>
             <AboutSection />
+            <Image
+                src={ProfilePic}
+                alt='profilepic'
+                className={styles.profilepic}
+            />
         </div>
     )
 }
