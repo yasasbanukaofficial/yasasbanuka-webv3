@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" id="title">Yasas Banuka Personal Portfolio Version 3</h1>
 
-## Getting Started
+<p align="center"><img src="https://socialify.git.ci/yasasbanukaofficial/yasasbanuka-webv3/image?description=1&amp;descriptionEditable=This%20is%20a%20personal%20portfolio%20built%20using%20nextjs.&amp;font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;theme=Darkhttps://socialify.git.ci/yasasbanukaofficial/yasasbanuka-webv3/image?description=1&amp;descriptionEditable=This%20is%20a%20personal%20portfolio%20built%20using%20nextjs.&amp;font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;theme=Dark" alt="project-image"></p>
 
-First, run the development server:
+<p align="center"><img src="https://img.shields.io/badge/building-darkred" alt="shields"><img src="https://img.shields.io/badge/nextjs-black" alt="shields"><img src="https://img.shields.io/badge/react-blue" alt="shields"><img src="https://img.shields.io/badge/html_and_css-orange" alt="shields"></p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone this repo</p>
+
+```
+git clone https://github.com/yasasbanukaofficial/yasasbanuka-webv3.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>2. Install requirements</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p>3. Thats it</p>
 
-## Learn More
+```
+edit it according to your own way
+```
 
-To learn more about Next.js, take a look at the following resources:
+<p>4. Leave some credits for me in</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+yasasbanukaofficial.github.io/yasasbanuka-webv3/
+```
+<h2>💻 Built with</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Technologies used in the project:
 
-## Deploy on Vercel
+*   Next JS
+*   React JS
+*   HTML
+*   CSS
+*   Node
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2>💖Like my work?</h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Support me by leaving credits to my website https://yasasbanukaofficial.github.io/yasasbanuka-webv3/ and also check out my other works.
