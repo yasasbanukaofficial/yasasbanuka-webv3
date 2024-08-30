@@ -6,8 +6,21 @@
     font-family: "Bruno Ace", sans-serif;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+    margin-bottom: 3vh;
+    font-family: "Bruno Ace", sans-serif;
+}
+
 
 @media only screen and (max-width: 1024px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
     .About {
         display: flex;
         align-items: center;
