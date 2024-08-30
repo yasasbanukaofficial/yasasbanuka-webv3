@@ -17,11 +17,11 @@ const About = () => {
                 <div className={styles.line} />
             </div>
             <AboutSection />
-            {/*<Image
+            <Image
                 src={ProfilePic}
                 alt='profilepic'
                 className={styles.profilepic}
-            />*/}
+            />
         </div>
     )
 }
