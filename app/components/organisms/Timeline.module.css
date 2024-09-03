@@ -29,6 +29,15 @@
     flex-direction: column;
 }
 
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
 
 @media only screen and (max-width: 1024px) {
     .main {
@@ -49,6 +58,10 @@
         background-color: aquamarine;
         width: 518px;
         height: 2px;
+    }
+
+    .tags {
+        margin-left: 22px;
     }
 }
 
