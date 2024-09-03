@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+.TrackRecords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    align-content: center;
+    gap: 0px;
+    margin: 0;
+    padding: 0;
+    margin-left: 150px;
+    margin-bottom: -10px;
+    height: auto;
+    /*margin-top: 100px;*/
+}
+
+.container {
+    padding-top: 2px;
+}
+
+.year {
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    opacity: 0.5;
+    color: white;
+}
+
+.title {
+    font-family: "Cabin Condensed", sans-serif;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.description {
+    font-family: "Cabin Condensed", sans-serif;
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    opacity: 0.75;
+    width: 800px;
+}
