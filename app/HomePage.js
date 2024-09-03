@@ -4,6 +4,7 @@ import Navbar from './components/common/Navbar';
 import Hero from './components/organisms/Hero';
 import About from './components/organisms/About';
 import NavbarTab from './components/common/NavbarTab';
+import Timeline from './components/organisms/Timeline';
 
 const HomePage = () => {
     return (
@@ -18,6 +19,9 @@ const HomePage = () => {
             </div>
             <div className={styles.AboutSection}>
                 <About />
+            </div>
+            <div className={styles.AboutSection}>
+                <Timeline />
             </div>
         </>
     )
