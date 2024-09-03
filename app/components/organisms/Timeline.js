@@ -17,9 +17,9 @@ const Timeline = () => {
             </div>
             <div className={styles.trackContainer}>
                 <div className={styles.trackdetails}>
-                    <TrackRecords year='2024 Aug - Present' />
-                    <TrackRecords title='Graduate Diploma in Software Engineering' />
-                    <TrackRecords description='Currently pursuing a 2-year diploma in software engineering at a private institution. This program not only covers university-level academics but also includes a 6-month industry training period, giving me valuable hands-on experience. After completing the diploma, I will receive the benefit of pursuing the final year of a Bsc (Hons.) in Computer Science' />
+                    <TrackRecords year='2027 - 2028 ( Future )' />
+                    <TrackRecords title='BSc (Hons.) in Computer Science' />
+                    <TrackRecords description='Upon completing the 2-year diploma, I am now planning to pursue a BSc (Hons.) in Computer Science. ' />
                     <div className={styles.tags}>
                         <TrackRecords tags='Diploma' />
                         <TrackRecords tags='Software Engineering' />
@@ -28,16 +28,16 @@ const Timeline = () => {
                 <div className={styles.trackdetails}>
                     <TrackRecords year='2024 Aug - Present' />
                     <TrackRecords title='Graduate Diploma in Software Engineering' />
-                    <TrackRecords description='Currently pursuing a 2-year diploma in software engineering at a private institution. This program not only covers university-level academics but also includes a 6-month industry training period, giving me valuable hands-on experience. After completing the diploma, I will receive the benefit of pursuing the final year of a Bsc (Hons.) in Computer Science' />
+                    <TrackRecords description='Currently pursuing a 2-year diploma in software engineering at a private institution. This program not only covers university-level academics but also includes a 6-month industry training period, giving me valuable hands-on experience. After completing the diploma, I will receive the benefit of pursuing the final year of a BSc (Hons.) in Computer Science' />
                     <div className={styles.tags}>
                         <TrackRecords tags='Diploma' />
                         <TrackRecords tags='Software Engineering' />
                     </div>
                 </div>
                 <div className={styles.trackdetails}>
-                    <TrackRecords year='2024 Aug - Present' />
-                    <TrackRecords title='Graduate Diploma in Software Engineering' />
-                    <TrackRecords description='Currently pursuing a 2-year diploma in software engineering at a private institution. This program not only covers university-level academics but also includes a 6-month industry training period, giving me valuable hands-on experience. After completing the diploma, I will receive the benefit of pursuing the final year of a Bsc (Hons.) in Computer Science' />
+                    <TrackRecords year='2010 - 2024 May' />
+                    <TrackRecords title='Academic Life in School' />
+                    <TrackRecords description='Throughout these years, I attended an international English medium school where I studied nine subjects, including Maths, Science, and ICT. I completed my final exams (G.C.E. Ordinary Levels) at the end of May, and the results will be released in September 2024.' />
                     <div className={styles.tags}>
                         <TrackRecords tags='Diploma' />
                         <TrackRecords tags='Software Engineering' />

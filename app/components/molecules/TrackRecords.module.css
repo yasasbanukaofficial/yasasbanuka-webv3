@@ -16,7 +16,7 @@
 }
 
 .container {
-    padding-top: 2px;
+    padding-top: 0;
 }
 
 .year {
@@ -32,6 +32,8 @@
     font-family: "Cabin Condensed", sans-serif;
     font-size: 40px;
     text-align: left;
+    opacity: 0.9;
+    margin: 0;
     color: white;
     font-style: bold;
     font-weight: 600;
@@ -44,4 +46,44 @@
     color: white;
     opacity: 0.75;
     width: 800px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .TrackRecords {
+        margin-left: 22px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .year {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 40px;
+        width: 700px;
+        height: auto;
+    }
+
+    .description {
+        font-size: 24px;
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .year {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 30px;
+        width: 300px;
+        height: auto;
+    }
+
+    .description {
+        font-size: 20px;
+        width: 350px;
+    }
 }
