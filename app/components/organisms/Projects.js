@@ -10,7 +10,7 @@ import ProjectTile from '../molecules/ProjectTile'
 const Project = () => {
     return (
         <div className={styles.main}>
-            <div id='track' className={styles.Projects}>
+            <div id='projects' className={styles.Projects}>
                 <SectionTopic f1='P' />
                 <SectionTopic f1='r' />
                 <SectionTopic f1='o' />
