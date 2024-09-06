@@ -5,6 +5,7 @@ import Hero from './components/organisms/Hero';
 import About from './components/organisms/About';
 import NavbarTab from './components/common/NavbarTab';
 import Timeline from './components/organisms/Timeline';
+import Project from './components/organisms/Projects';
 
 const HomePage = () => {
     return (
@@ -22,6 +23,10 @@ const HomePage = () => {
             </div>
             <div className={styles.AboutSection}>
                 <Timeline />
+            </div>
+            
+            <div className={styles.AboutSection}>
+                <Project />
             </div>
         </>
     )

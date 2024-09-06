@@ -1,0 +1,20 @@
+.ProjectTile{
+    width: 436px;
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 32px;
+    border: 2px solid white;
+    transition: opacity 0.15s;
+    cursor: pointer;
+    margin-left: 22px; /*Make it 150px after adding media queries for mobile device sizes*/
+}
+
+.ProjectTile:hover{
+    background-color: white;
+    opacity: 1;
+}
