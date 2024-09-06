@@ -1078,15 +1078,13 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    opacity: 0.25;
+    opacity: 0.1;
     border-radius: 32px;
     border: 2px solid white;
-    transition: opacity 0.3s;
     cursor: pointer;
     margin-left: 22px; /*Make it 150px after adding media queries for mobile device sizes*/
 }
 
-.ProjectTile_ProjectTile__IKBf5:hover{
-    background-color: white;
-    opacity: 0.8;
+.ProjectTile_tags__UGzxJ{
+    
 }
