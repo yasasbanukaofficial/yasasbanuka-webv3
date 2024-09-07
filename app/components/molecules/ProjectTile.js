@@ -15,8 +15,8 @@ const ProjectTile = (props) => {
         <TagYellow tagyellow={props.tagyellow} />
         <TagRed tagred={props.tagred} />
       </div>
-      <Link href="/">
-        <button className={styles.linkButton}>Visit the repo</button>
+      <Link href="https://github.com/yasasbanukaofficial?tab=repositories">
+        <button className={styles.linkButton}>Visit my projects</button>
       </Link>
     </div>
   );

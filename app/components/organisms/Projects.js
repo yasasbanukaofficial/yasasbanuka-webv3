@@ -20,25 +20,67 @@ const Project = () => {
       </div>
       <div className={styles.projectTileContainer}>
         <ProjectTile
-          title="To - do List"
-          description="This is a text bruuh and this text could be so much long that I even cant e=keep up and this also kinda boring"
-          tagblue="testing"
-          tagyellow="testbruh"
-          tagred="another freaking"
+          title="Yasas Banuka Portfolio V3"
+          description="The website you are currently seeing is my third version of my personal web portfolio which was designed using figma and built using NextJS. This website is hosted using gihtub pages.  - 2024 Sep"
+          tagblue="Figma"
+          tagyellow="React"
+          tagred="NextJS"
         />
         <ProjectTile
-          title="To - do List"
-          description="This is a text bruuh and this text could be so much long that I even cant e=keep up and this also kinda boring"
-          tagblue="testing"
-          tagyellow="testbruh"
-          tagred="another freaking"
+          title="Yasas Banuka Portfolio V2"
+          description="This is the second version of my web portfolio that I've built using nextjs. This web portfolio is a simple page with a theme of anime. This was built for fun, not for professional use. Used Figma to design this project.  - 2024 Aug"
+          tagblue="Figma"
+          tagyellow="React"
+          tagred="NextJS"
         />
         <ProjectTile
-          title="To - do List"
-          description="This is a text bruuh and this text could be so much long that I even cant e=keep up and this also kinda boring"
-          tagblue="testing"
-          tagyellow="testbruh"
-          tagred="another freaking"
+          title="Improved Version of To-do List"
+          description="This todo list is an improved version from the previous ones, the speciality of this project is I used ant design and proper file organization for this project by following atom design methodology.  - 2024 Aug"
+          tagblue="HTML"
+          tagyellow="CSS"
+          tagred="Javascript"
+        />
+        <ProjectTile
+          title="NextJS To-do list"
+          description="This is a nextjs project that I've built when I almost finished learning javascript and a little bit of react. This is an improved version of simple to-do list project.  - 2024 Jul"
+          tagblue="Javascript"
+          tagyellow="React"
+          tagred="NextJS"
+        />
+        <ProjectTile
+          title="Simple To-do List"
+          description="This is a simple javascript project that I've built when I started learning javascript for the first time. This project has a good user interface plsu more features like adding deleting and error showing messages.  - 2024 Jul"
+          tagblue="HTML"
+          tagyellow="CSS"
+          tagred="Javascript"
+        />
+        <ProjectTile
+          title="Greenish Website"
+          description="This is a landing page which is designed as an activity project. A Simple green themed website.  - 2024 Jun"
+          tagblue="HTML"
+          tagyellow="CSS"
+          tagred="Responsive"
+        />
+        <ProjectTile
+          title="Yasas Banuka Portfolio V1"
+          description="This is the first version of my web portfolio that I've built myself back when I was learning basic web design.  - 2024 Jun"
+          tagblue="HTML"
+          tagyellow="CSS"
+          tagred="Web Design"
+        />
+        <ProjectTile
+          title="Tribute Page"
+          description="This is a web which is not much difficult to built but this one was built for freecodecamp activity. (Desktop Version)  - 2024 Jun"
+          tagblue="HTML"
+          tagyellow="CSS"
+          tagred="Web Design"
+        />
+        <ProjectTile
+          title="Landing Page"
+          description="This is a web page which is an easy one that I have developed in order to receive a certificate from freeCodeCamp. Just a simple online guitar shop landing page. (Desktop Version)  - 2024 May"
+          tagblue="HTML"
+          tagyellow="CSS"
+          tagred="Web Design"
         />
       </div>
     </div>
