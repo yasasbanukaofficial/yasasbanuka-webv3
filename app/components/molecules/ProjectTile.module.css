@@ -1,18 +1,90 @@
-.ProjectTile{
-    width: 436px;
-    height: 544px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    opacity: 0.1;
-    border-radius: 32px;
-    border: 2px solid white;
-    cursor: pointer;
-    margin-left: 22px; /*Make it 150px after adding media queries for mobile device sizes*/
+.ProjectTile {
+  width: 375px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.219);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 32px;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-left: 150px; /*Make it 150px after adding media queries for mobile device sizes*/
 }
 
-.tags{
-    
+.title {
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 42px;
+  margin: 0;
+  font-weight: 700;
+  color: white;
+}
+
+.description {
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.788);
+}
+
+.linkButton {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  height: 40px;
+  width: 349px;
+  font-size: 24px;
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 400;
+  border-radius: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.linkButton:hover {
+  color: black;
+  background-color: white;
+}
+
+.tags {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ProjectTile {
+    width: 336px;
+    height: auto;
+    text-align: center;
+    margin-left: 100px; /*Make it 150px after adding media queries for mobile device sizes*/
+  }
+  .linkButton {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .ProjectTile {
+    width: 250px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .linkButton {
+    width: 200px;
+  }
 }

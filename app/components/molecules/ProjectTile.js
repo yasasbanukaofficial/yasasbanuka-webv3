@@ -1,6 +1,9 @@
-import React from 'react'
-import styles from './ProjectTile.module.css'
-import TagsBlue from '../atoms/TagsBlue'
+import React from "react";
+import styles from "./ProjectTile.module.css";
+import TagsBlue from "../atoms/TagsBlue";
+import TagYellow from "../atoms/TagYellow";
+import TagRed from "../atoms/TagRed";
+import Link from "next/link";
 
 const ProjectTile = (props) => {
   return (
@@ -8,10 +11,15 @@ const ProjectTile = (props) => {
       <h1 className={styles.title}>{props.title}</h1>
       <p className={styles.description}>{props.description}</p>
       <div className={styles.tags}>
-      <TagsBlue tagblue='testing'/>
+        <TagsBlue tagblue={props.tagblue} />
+        <TagYellow tagyellow={props.tagyellow} />
+        <TagRed tagred={props.tagred} />
       </div>
+      <Link href="/">
+        <button className={styles.linkButton}>Visit the repo</button>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectTile
+export default ProjectTile;

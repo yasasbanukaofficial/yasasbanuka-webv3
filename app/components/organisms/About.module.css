@@ -1,98 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap");
 
 .About {
-    margin-top: 20vh;
-    margin-bottom: 3vh;
-    padding-top: 5vh;
-    font-family: "Bruno Ace", sans-serif;
+  margin-top: 20vh;
+  margin-bottom: 3vh;
+  padding-top: 5vh;
+  font-family: "Bruno Ace", sans-serif;
 }
 
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20vh;
-    margin-bottom: 3vh;
-    font-family: "Bruno Ace", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  margin-bottom: 3vh;
+  font-family: "Bruno Ace", sans-serif;
 }
 
 .profilepic {
-    width: 299px;
-    height: auto;
-    border-radius: 30px;
-    margin-left: 100px;
-    margin-top: 100px;
+  width: 299px;
+  height: auto;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
-
 @media only screen and (max-width: 1024px) {
-    .main {
-        display: flex;
-        flex-direction: column;
-    }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .About {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-    }
+  .About {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+  }
 
-    .line {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 518px;
-        height: 2px;
-    }
+  .line {
+    display: block;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 518px;
+    height: 2px;
+  }
 
-    .profilepic {
-        margin: 0;
-        margin-top: 40px;
-    }
+  .profilepic {
+    margin: 0;
+    margin-top: 40px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
-    .About {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-    }
+  .About {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+  }
 
-    .line {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 315px;
-        height: 2px;
-    }
+  .line {
+    display: block;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 315px;
+    height: 2px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .About {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-        margin-top: 50vh;
-    }
+  .About {
+    display: block;
+    text-align: center;
+    width: auto;
+    margin-top: 50vh;
+  }
 
-    .line {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 14vh;
-        height: 2px;
-    }
+  .line {
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 45vh;
+    height: 2px;
+  }
 
-    .profilepic {
-        width: 150px;
-    }
+  .profilepic {
+    width: 150px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .line {
-        width: 77px;
-    }
+  .line {
+    width: 77px;
+  }
 }

@@ -133,104 +133,104 @@
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/organisms/About.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap");
 
 .About_About__KggDC {
-    margin-top: 20vh;
-    margin-bottom: 3vh;
-    padding-top: 5vh;
-    font-family: "Bruno Ace", sans-serif;
+  margin-top: 20vh;
+  margin-bottom: 3vh;
+  padding-top: 5vh;
+  font-family: "Bruno Ace", sans-serif;
 }
 
 .About_main__1EPfp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20vh;
-    margin-bottom: 3vh;
-    font-family: "Bruno Ace", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  margin-bottom: 3vh;
+  font-family: "Bruno Ace", sans-serif;
 }
 
 .About_profilepic__Yowdl {
-    width: 299px;
-    height: auto;
-    border-radius: 30px;
-    margin-left: 100px;
-    margin-top: 100px;
+  width: 299px;
+  height: auto;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
-
 @media only screen and (max-width: 1024px) {
-    .About_main__1EPfp {
-        display: flex;
-        flex-direction: column;
-    }
+  .About_main__1EPfp {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .About_About__KggDC {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-    }
+  .About_About__KggDC {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+  }
 
-    .About_line__NhxBL {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 518px;
-        height: 2px;
-    }
+  .About_line__NhxBL {
+    display: block;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 518px;
+    height: 2px;
+  }
 
-    .About_profilepic__Yowdl {
-        margin: 0;
-        margin-top: 40px;
-    }
+  .About_profilepic__Yowdl {
+    margin: 0;
+    margin-top: 40px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
-    .About_About__KggDC {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-    }
+  .About_About__KggDC {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+  }
 
-    .About_line__NhxBL {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 315px;
-        height: 2px;
-    }
+  .About_line__NhxBL {
+    display: block;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 315px;
+    height: 2px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .About_About__KggDC {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-        margin-top: 50vh;
-    }
+  .About_About__KggDC {
+    display: block;
+    text-align: center;
+    width: auto;
+    margin-top: 50vh;
+  }
 
-    .About_line__NhxBL {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 14vh;
-        height: 2px;
-    }
+  .About_line__NhxBL {
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 45vh;
+    height: 2px;
+  }
 
-    .About_profilepic__Yowdl {
-        width: 150px;
-    }
+  .About_profilepic__Yowdl {
+    width: 150px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .About_line__NhxBL {
-        width: 77px;
-    }
+  .About_line__NhxBL {
+    width: 77px;
+  }
 }
+
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/atoms/SectionTopic.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
@@ -409,113 +409,114 @@
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/organisms/Timeline.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap");
 
 .Timeline_Timeline__napQT {
-    margin-bottom: 3vh;
-    font-family: "Bruno Ace", sans-serif;
-    padding-top: 5vh;
+  margin-bottom: 3vh;
+  font-family: "Bruno Ace", sans-serif;
+  padding-top: 5vh;
 }
 
 .Timeline_main__6_VI1 {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin-top: 40vh;
-    height: auto;
-    font-family: "Bruno Ace", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 40vh;
+  height: auto;
+  font-family: "Bruno Ace", sans-serif;
 }
 
 .Timeline_trackContainer__MpER4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 5vh;
 }
 
 .Timeline_trackdetails__mnJaa {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .Timeline_tags__ucYEf {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 150px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 150px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .Timeline_main__6_VI1 {
-        display: flex;
-        flex-direction: column;
-    }
+  .Timeline_main__6_VI1 {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .Timeline_Timeline__napQT {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-    }
+  .Timeline_Timeline__napQT {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+  }
 
-    .Timeline_line__YS6BB {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 518px;
-        height: 2px;
-    }
+  .Timeline_line__YS6BB {
+    display: block;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 518px;
+    height: 2px;
+  }
 
-    .Timeline_tags__ucYEf {
-        margin-left: 22px;
-    }
+  .Timeline_tags__ucYEf {
+    margin-left: 22px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
-    .Timeline_Timeline__napQT {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-    }
+  .Timeline_Timeline__napQT {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+  }
 
-    .Timeline_line__YS6BB {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 315px;
-        height: 2px;
-    }
+  .Timeline_line__YS6BB {
+    display: block;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 315px;
+    height: 2px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .Timeline_Timeline__napQT {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-        margin-top: 50vh;
-    }
+  .Timeline_Timeline__napQT {
+    display: block;
+    text-align: center;
+    width: auto;
+    margin-top: 50vh;
+  }
 
-    .Timeline_line__YS6BB {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 14vh;
-        height: 2px;
-    }
+  .Timeline_line__YS6BB {
+    display: block;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    width: 50vh;
+    height: 2px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .Timeline_line__YS6BB {
-        width: 77px;
-    }
+  .Timeline_line__YS6BB {
+    width: 77px;
+  }
 }
+
 /*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/molecules/TrackRecords.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************/
@@ -611,113 +612,124 @@
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/organisms/Projects.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap");
 
 .Projects_Projects__5WqsN {
-    margin-bottom: 3vh;
-    font-family: "Bruno Ace", sans-serif;
-    padding-top: 5vh;
+  margin-bottom: 3vh;
+  font-family: "Bruno Ace", sans-serif;
+  padding-top: 5vh;
 }
 
 .Projects_main__0OtUJ {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin-top: 40vh;
-    height: auto;
-    font-family: "Bruno Ace", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 40vh;
+  height: auto;
+  font-family: "Bruno Ace", sans-serif;
 }
 
-.Projects_trackContainer__epjXH {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding-top: 5vh;
+.Projects_projectTileContainer__C1mPL {
+  display: grid;
+  grid-template-columns: 500px 500px 1fr;
+  padding-top: 5vh;
 }
 
 .Projects_trackdetails__rOc1b {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .Projects_tags__j0KQI {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 150px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 150px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .Projects_main__0OtUJ {
-        display: flex;
-        flex-direction: column;
-    }
+  .Projects_main__0OtUJ {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .Projects_Projects__5WqsN {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-    }
+  .Projects_Projects__5WqsN {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+  }
 
-    .Projects_line__o_YX_ {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 518px;
-        height: 2px;
-    }
+  .Projects_line__o_YX_ {
+    display: block;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 265px;
+    height: 2px;
+  }
 
-    .Projects_tags__j0KQI {
-        margin-left: 22px;
-    }
+  .Projects_tags__j0KQI {
+    margin-left: 22px;
+  }
+
+  .Projects_projectTileContainer__C1mPL {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-row-gap: 30px;
+    row-gap: 30px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
-    .Projects_Projects__5WqsN {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-    }
+  .Projects_Projects__5WqsN {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+  }
 
-    .Projects_line__o_YX_ {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 315px;
-        height: 2px;
-    }
+  .Projects_line__o_YX_ {
+    display: block;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 315px;
+    height: 2px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .Projects_Projects__5WqsN {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: auto;
-        margin-top: 50vh;
-    }
+  .Projects_Projects__5WqsN {
+    display: block;
+    text-align: center;
+    width: auto;
+    margin-top: 50vh;
+  }
 
-    .Projects_line__o_YX_ {
-        display: block;
-        margin-left: 20px;
-        background-color: aquamarine;
-        width: 14vh;
-        height: 2px;
-    }
+  .Projects_projectTileContainer__C1mPL {
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+  }
+
+  .Projects_line__o_YX_ {
+    display: block;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    width: 50vh;
+    height: 2px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .Projects_line__o_YX_ {
-        width: 77px;
-    }
+  .Projects_line__o_YX_ {
+    width: 77px;
+  }
 }
+
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/HomePage.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
@@ -1070,21 +1082,94 @@
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/molecules/ProjectTile.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************/
-.ProjectTile_ProjectTile__IKBf5{
-    width: 436px;
-    height: 544px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    opacity: 0.1;
-    border-radius: 32px;
-    border: 2px solid white;
-    cursor: pointer;
-    margin-left: 22px; /*Make it 150px after adding media queries for mobile device sizes*/
+.ProjectTile_ProjectTile__IKBf5 {
+  width: 375px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.219);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 32px;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-left: 150px; /*Make it 150px after adding media queries for mobile device sizes*/
 }
 
-.ProjectTile_tags__UGzxJ{
-    
+.ProjectTile_title___24ll {
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 42px;
+  margin: 0;
+  font-weight: 700;
+  color: white;
 }
+
+.ProjectTile_description__WEyRg {
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.788);
+}
+
+.ProjectTile_linkButton__kpnDE {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  height: 40px;
+  width: 349px;
+  font-size: 24px;
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 400;
+  border-radius: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.ProjectTile_linkButton__kpnDE:hover {
+  color: black;
+  background-color: white;
+}
+
+.ProjectTile_tags__UGzxJ {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ProjectTile_ProjectTile__IKBf5 {
+    width: 336px;
+    height: auto;
+    text-align: center;
+    margin-left: 100px; /*Make it 150px after adding media queries for mobile device sizes*/
+  }
+  .ProjectTile_linkButton__kpnDE {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .ProjectTile_ProjectTile__IKBf5 {
+    width: 250px;
+    height: auto;
+  }
+
+  .ProjectTile_title___24ll {
+    font-size: 30px;
+  }
+
+  .ProjectTile_description__WEyRg {
+    font-size: 20px;
+  }
+
+  .ProjectTile_linkButton__kpnDE {
+    width: 200px;
+  }
+}
+
