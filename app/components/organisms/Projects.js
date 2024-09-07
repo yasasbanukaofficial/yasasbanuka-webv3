@@ -11,13 +11,10 @@ const Project = () => {
   return (
     <div className={styles.main}>
       <div id="projects" className={styles.Projects}>
-        <SectionTopic f1="P" />
-        <SectionTopic f1="r" />
+        <SectionTopic f1="W" />
         <SectionTopic f1="o" />
-        <SectionTopic f1="j" />
-        <SectionTopic f1="e" />
-        <SectionTopic f1="c" />
-        <SectionTopic f1="t" />
+        <SectionTopic f1="r" />
+        <SectionTopic f1="k" />
         <SectionTopic f1="s" />
         <div className={styles.line} />
       </div>
