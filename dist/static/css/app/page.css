@@ -213,10 +213,10 @@
 
   .About_line__NhxBL {
     display: block;
+    margin: auto;
     margin-top: 25px;
-    margin-left: 20px;
     background-color: aquamarine;
-    width: 45vh;
+    width: 10vh;
     height: 2px;
   }
 
@@ -497,16 +497,27 @@
   .Timeline_Timeline__napQT {
     display: block;
     text-align: center;
-    width: auto;
+    width: 100%;
     margin-top: 50vh;
+  }
+  .Timeline_trackContainer__MpER4 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .Timeline_tags__ucYEf {
+    width: auto;
+    margin-right: 10px;
   }
 
   .Timeline_line__YS6BB {
     display: block;
-    margin-left: 25px;
-    margin-top: 20px;
+    margin: auto;
+    margin-top: 25px;
     background-color: aquamarine;
-    width: 50vh;
+    width: 10vh;
     height: 2px;
   }
 }
@@ -520,95 +531,96 @@
 /*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/molecules/TrackRecords.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap");
 
 .TrackRecords_TrackRecords__XbwgY {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    align-content: center;
-    gap: 0px;
-    margin: 0;
-    padding: 0;
-    margin-left: 150px;
-    margin-bottom: -10px;
-    height: auto;
-    /*margin-top: 100px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  align-content: center;
+  gap: 0px;
+  margin: 0;
+  padding: 0;
+  margin-left: 150px;
+  margin-bottom: -10px;
+  height: auto;
+  /*margin-top: 100px;*/
 }
 
 .TrackRecords_container__GKvho {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .TrackRecords_year___9qtG {
-    font-family: "Bruno Ace", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    text-align: left;
-    opacity: 0.5;
-    color: white;
+  font-family: "Bruno Ace", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  opacity: 0.5;
+  color: white;
 }
 
 .TrackRecords_title__X0tCp {
-    font-family: "Cabin Condensed", sans-serif;
-    font-size: 40px;
-    text-align: left;
-    opacity: 0.9;
-    margin: 0;
-    color: white;
-    font-style: bold;
-    font-weight: 600;
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 40px;
+  text-align: left;
+  opacity: 0.9;
+  margin: 0;
+  color: white;
+  font-style: bold;
+  font-weight: 600;
 }
 
 .TrackRecords_description__0NKNQ {
-    font-family: "Cabin Condensed", sans-serif;
-    font-size: 24px;
-    text-align: left;
-    color: white;
-    opacity: 0.75;
-    width: 800px;
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+  opacity: 0.75;
+  width: 800px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .TrackRecords_TrackRecords__XbwgY {
-        margin-left: 22px;
-    }
+  .TrackRecords_TrackRecords__XbwgY {
+    margin-left: 22px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .TrackRecords_year___9qtG {
-        font-size: 15px;
-    }
+  .TrackRecords_year___9qtG {
+    font-size: 15px;
+  }
 
-    .TrackRecords_title__X0tCp {
-        font-size: 40px;
-        width: 700px;
-        height: auto;
-    }
+  .TrackRecords_title__X0tCp {
+    font-size: 40px;
+    width: 700px;
+    height: auto;
+  }
 
-    .TrackRecords_description__0NKNQ {
-        font-size: 24px;
-        width: 700px;
-    }
+  .TrackRecords_description__0NKNQ {
+    font-size: 24px;
+    width: 700px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .TrackRecords_year___9qtG {
-        font-size: 16px;
-    }
+  .TrackRecords_year___9qtG {
+    font-size: 16px;
+  }
 
-    .TrackRecords_title__X0tCp {
-        font-size: 30px;
-        width: 300px;
-        height: auto;
-    }
+  .TrackRecords_title__X0tCp {
+    font-size: 30px;
+    width: 300px;
+    height: auto;
+  }
 
-    .TrackRecords_description__0NKNQ {
-        font-size: 20px;
-        width: 350px;
-    }
+  .TrackRecords_description__0NKNQ {
+    font-size: 20px;
+    width: 350px;
+  }
 }
+
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/organisms/Projects.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
@@ -716,10 +728,10 @@
 
   .Projects_line__o_YX_ {
     display: block;
-    margin-left: 25px;
+    margin: auto;
     margin-top: 20px;
     background-color: aquamarine;
-    width: 50vh;
+    width: 15vh;
     height: 2px;
   }
 }

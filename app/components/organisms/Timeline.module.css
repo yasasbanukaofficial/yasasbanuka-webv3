@@ -86,16 +86,27 @@
   .Timeline {
     display: block;
     text-align: center;
-    width: auto;
+    width: 100%;
     margin-top: 50vh;
+  }
+  .trackContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .tags {
+    width: auto;
+    margin-right: 10px;
   }
 
   .line {
     display: block;
-    margin-left: 25px;
-    margin-top: 20px;
+    margin: auto;
+    margin-top: 25px;
     background-color: aquamarine;
-    width: 50vh;
+    width: 10vh;
     height: 2px;
   }
 }

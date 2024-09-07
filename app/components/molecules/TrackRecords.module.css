@@ -1,89 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Bungee&family=Cabin+Condensed:wght@400;500;600;700&display=swap");
 
 .TrackRecords {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    align-content: center;
-    gap: 0px;
-    margin: 0;
-    padding: 0;
-    margin-left: 150px;
-    margin-bottom: -10px;
-    height: auto;
-    /*margin-top: 100px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  align-content: center;
+  gap: 0px;
+  margin: 0;
+  padding: 0;
+  margin-left: 150px;
+  margin-bottom: -10px;
+  height: auto;
+  /*margin-top: 100px;*/
 }
 
 .container {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .year {
-    font-family: "Bruno Ace", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    text-align: left;
-    opacity: 0.5;
-    color: white;
+  font-family: "Bruno Ace", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  opacity: 0.5;
+  color: white;
 }
 
 .title {
-    font-family: "Cabin Condensed", sans-serif;
-    font-size: 40px;
-    text-align: left;
-    opacity: 0.9;
-    margin: 0;
-    color: white;
-    font-style: bold;
-    font-weight: 600;
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 40px;
+  text-align: left;
+  opacity: 0.9;
+  margin: 0;
+  color: white;
+  font-style: bold;
+  font-weight: 600;
 }
 
 .description {
-    font-family: "Cabin Condensed", sans-serif;
-    font-size: 24px;
-    text-align: left;
-    color: white;
-    opacity: 0.75;
-    width: 800px;
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+  opacity: 0.75;
+  width: 800px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .TrackRecords {
-        margin-left: 22px;
-    }
+  .TrackRecords {
+    margin-left: 22px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .year {
-        font-size: 15px;
-    }
+  .year {
+    font-size: 15px;
+  }
 
-    .title {
-        font-size: 40px;
-        width: 700px;
-        height: auto;
-    }
+  .title {
+    font-size: 40px;
+    width: 700px;
+    height: auto;
+  }
 
-    .description {
-        font-size: 24px;
-        width: 700px;
-    }
+  .description {
+    font-size: 24px;
+    width: 700px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .year {
-        font-size: 16px;
-    }
+  .year {
+    font-size: 16px;
+  }
 
-    .title {
-        font-size: 30px;
-        width: 300px;
-        height: auto;
-    }
+  .title {
+    font-size: 30px;
+    width: 300px;
+    height: auto;
+  }
 
-    .description {
-        font-size: 20px;
-        width: 350px;
-    }
+  .description {
+    font-size: 20px;
+    width: 350px;
+  }
 }

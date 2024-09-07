@@ -101,10 +101,10 @@
 
   .line {
     display: block;
-    margin-left: 25px;
+    margin: auto;
     margin-top: 20px;
     background-color: aquamarine;
-    width: 50vh;
+    width: 15vh;
     height: 2px;
   }
 }

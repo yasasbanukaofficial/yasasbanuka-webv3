@@ -78,10 +78,10 @@
 
   .line {
     display: block;
+    margin: auto;
     margin-top: 25px;
-    margin-left: 20px;
     background-color: aquamarine;
-    width: 45vh;
+    width: 10vh;
     height: 2px;
   }
 
